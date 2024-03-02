@@ -604,27 +604,33 @@ transform: translate(-50%, -50%) scale(1);
 }
 
 .modal-close-btn {
+display: flex;
+justify-content: center;
+align-items: center;
+
 position: absolute;
+top: 24px;
+right: 24px;
+
 padding: 0;
 width: 24px;
 height: 24px;
 
+background-color: #e7e9fc;
+border: 1px solid rgba(0, 0, 0, 0.1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-
-border-radius: 50%;
-fill: #e7e9fc;
-stroke-width: 1px;
-stroke: rgba(0, 0, 0, 0.1);
 }
 
 .modal-close-btn-icon {
-width: 8px;
-height: 8px;
 border-radius: 100%;
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
+border:none;
 fill: white;
 background-color: #404bbf;
 }
