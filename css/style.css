@@ -568,3 +568,64 @@ fill: #f4f4fd;
 }
 
 /* ---------------------------------- /Footer ------------------------------------*/
+
+/* ---------------------------------- backdrop ------------------------------------*/
+
+.backdrop {
+position: fixed;
+top: 0;
+left: 0;
+z-index: 99999999;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.2)
+}
+
+
+/* ---------------------------------- /backdrop ------------------------------------*/
+
+/* ---------------------------------- modal window ------------------------------------*/
+
+.modal {
+width: 406px;
+height: 584px;
+border-radius: 4px;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+background: #fcfcfc;
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%)
+}
+
+.modal-close-btn {
+position: relative;
+top: 24px;
+right: 24px;
+padding: 0;
+width: 24px;
+height: 24px;
+border: none;
+
+border-radius: 50%;
+fill: #e7e9fc;
+stroke-width: 1px;
+stroke: rgba(0, 0, 0, 0.1);
+}
+
+.modal-close-btn-icon {
+width: 8px;
+height: 8px;
+border-radius: 100%;
+
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+fill: white;
+background-color: #404bbf;
+}
+
+
+/* ---------------------------------- /modal window ------------------------------------*/
