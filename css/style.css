@@ -604,13 +604,11 @@ transform: translate(-50%, -50%) scale(1);
 }
 
 .modal-close-btn {
-position: relative;
-top: 24px;
-right: 24px;
+position: absolute;
 padding: 0;
 width: 24px;
 height: 24px;
-border: none;
+
 
 
 border-radius: 50%;
