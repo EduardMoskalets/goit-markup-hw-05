@@ -648,6 +648,7 @@ fill: white;
 background-color: #404bbf;
 }
 
+/* === form ===*/
 
 .review-form-description {
 font-weight: 500;
@@ -662,15 +663,41 @@ margin-bottom: 16px;
 }
 
 .review-form {
-
+margin-bottom: 18px;
 }
 
 .review-form-label{
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: #8e8f99;
 
+display: block;
+margin-bottom: 4px;
+}
+.review-form-input-div {
+position: relative;
 }
 
 .review-form-input {
+width: 100%;
+height: 40px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+padding-left: 38px;
+transition: border-color 250ms linear;
+outline: transparent;
+}
 
+.review-form-input:focus {
+border: 1px solid #4d5ae5;
+}
+
+.review-form-icon{
+position: absolute;
+top: 50%;
+left: 16px;
+transform: translateY(-50%);
 }
 
 .review-form-textarea {
@@ -692,4 +719,6 @@ margin-bottom: 16px;
 .review-form-submit-btn {
 
 }
+
+/* === /form ===*/
 /* ---------------------------------- /modal window ------------------------------------*/
