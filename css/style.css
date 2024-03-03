@@ -591,17 +591,17 @@ gap: 24px;
 }
 
 .review-form-footer-input {
-padding: 0;
+padding-left: 16px;
 width: 264px;
 height: 40px;
 font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
-background: #2e2f42;
 border: 1px solid #ffffff;
-border-radius: 4px
+border-radius: 4px;
 background-color: transparent;
 color: #ffffff;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -611,8 +611,9 @@ border: none;
 display: flex;
 justify-content: center;
 align-items: center;
-min-width: 165px
+min-width: 165px;
 height: 40px;
+
 background-color: #4d5ae5;
 font-weight: 500;
 font-size: 16px;
