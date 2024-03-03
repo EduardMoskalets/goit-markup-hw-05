@@ -757,7 +757,9 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 .review-form-checkbox-input:checked 
 + .review-form-checkbox-label 
 .review-form-own-checkbox {
-background-color: #4d5ae5;
+background-color: #404bbf;
+border: none;
+fill: #F4F4FD;
 }
 
 .review-form-checkbox-label {
