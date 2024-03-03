@@ -714,11 +714,14 @@ margin-bottom: 16px;
 }
 
 .review-form-textarea-message {
+color: rgba(46, 47, 66, 0.4);
 border: 1px solid rgba(46, 47, 66, 0.4);
+background-color: transparent;
 border-radius: 4px;
 width: 360px;
 height: 120px;
 
+outline: transparent;
 
 font-size: 12px;
 line-height: 1.17;
