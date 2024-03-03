@@ -723,6 +723,7 @@ letter-spacing: 0.04em;
 resize: none;
 
 padding: 8px 16px;
+margin-bottom: 16px;
 }
 
 .review-form-textarea-message::placeholder{
