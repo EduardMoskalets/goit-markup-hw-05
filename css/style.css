@@ -580,6 +580,53 @@ background-color: #31d0aa;
 fill: #f4f4fd;
 }
 
+/* Form footer*/
+.email-input {
+margin-left: 80px;
+}
+
+.review-form-footer-input {
+width: 264px;
+height: 40px;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+background: #2e2f42;
+border: 1px solid #fff;
+border-radius: 4px
+}
+
+
+.footer-btn {
+padding: 0;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 165px;
+height: 40px;
+background-color: #4d5ae5;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+}
+
+.subscribe {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+
+.review-form-icon-footer {
+margin-left: 16px;
+}
+
+/* Form footer*/
 /* ---------------------------------- /Footer ------------------------------------*/
 
 /* ---------------------------------- backdrop ------------------------------------*/
@@ -596,10 +643,10 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
 visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 /* visibility */
-/*opacity: 0;
+opacity: 0;
 visibility: hidden;
 transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
+visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* visibility */
 
