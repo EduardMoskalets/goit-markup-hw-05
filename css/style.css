@@ -799,6 +799,9 @@ display: block;
 min-width: 169px;
 height: 56px;
 
+padding: 0;
+margin-left: auto;
+margin-right: auto;
 
 font-weight: 500;
 font-size: 16px;
