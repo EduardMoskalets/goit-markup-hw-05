@@ -580,7 +580,7 @@ background-color: #31d0aa;
 fill: #f4f4fd;
 }
 
-/* Form footer*/
+/* =============Form footer===========*/
 .email-input {
 margin-left: 80px;
 }
@@ -621,6 +621,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 border-radius: 4px;
+cursor: pointer;
 }
 
 .subscribe {
@@ -636,7 +637,7 @@ margin-bottom: 16px;
 margin-left: 16px;
 }
 
-/* Form footer*/
+/* ================= Form footer ==================*/
 /* ---------------------------------- /Footer ------------------------------------*/
 
 /* ---------------------------------- backdrop ------------------------------------*/
