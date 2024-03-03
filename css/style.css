@@ -599,10 +599,11 @@ visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 /*opacity: 0;
 visibility: hidden;
 transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
-}
+visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}*/
+/* visibility */
 
-/* .backdrop.is-open {
+/*.backdrop.is-open {
 opacity: 1;
 }*/
 
@@ -756,6 +757,7 @@ outline: transparent;
 border-color:#4d5ae5;
 }
 
+/* ====== Checkbox ======*/
 .review-form-checkbox {
 margin-bottom: 24px;
 }
@@ -763,8 +765,6 @@ margin-bottom: 24px;
 .review-form-checkbox-input {
 border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.4);
-
-
 }
 
 .review-form-checkbox-input:checked 
@@ -799,7 +799,6 @@ align-items: center;
 justify-content: center;
 
 fill: transparent;
-
 }
 
 .privacy-policy-link {
@@ -807,6 +806,9 @@ color: #4d5ae5;
 text-decoration: underline;
 }
 
+/* === /Chtckbox ===*/
+
+/* === btn ===*/
 .review-form-submit-btn {
 display: block;
 min-width: 169px;
@@ -827,6 +829,7 @@ background-color: #4D5AE5;
 border: none;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* === /btn ===*/
 
 /* === /form ===*/
 /* ---------------------------------- /modal window ------------------------------------*/
